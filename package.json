@@ -1,0 +1,28 @@
+{
+  "name": "vulnstream",
+  "version": "1.0.0",
+  "description": "Using Shodan's streaming API to show a live stream of vulnerable devices as Shodan finds them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerGiraffe/VulnStream.git"
+  },
+  "author": "HackerGiraffe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackerGiraffe/VulnStream/issues"
+  },
+  "homepage": "https://github.com/HackerGiraffe/VulnStream#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "hyperquest": "^2.1.3",
+    "morgan": "^1.9.1",
+    "ndjson": "^1.5.0",
+    "socket.io": "^2.2.0"
+  }
+}
